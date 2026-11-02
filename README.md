@@ -1,4 +1,4 @@
-# Wan-Yu Lin – Resume / 林琬諭 履歷
+# Wan-Yu Lin – Resume
 
 Bilingual (English / 中文) online resume. Use the buttons at the top right to switch language, or open a direct link:
 
