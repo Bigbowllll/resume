@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wan-Yu Lin – Software Engineer | 林琬諭 – 軟體工程師</title>
+<meta name="description" content="Software Engineer (C#, .NET, MS SQL Server) based in Taipei. 軟體工程師，專長 C#、.NET、MS SQL。">
+<style>
+  :root { --bg:#fff; --fg:#1f2328; --muted:#59636e; --line:#d1d9e0; --accent:#0969da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0d1117; --fg:#e6edf3; --muted:#9198a1; --line:#30363d; --accent:#4493f8; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif; }
+  main { max-width:820px; margin:0 auto; padding:24px 16px 64px; }
+  .bar { display:flex; justify-content:flex-end; gap:8px; margin-bottom:8px; }
+  .bar button { border:1px solid var(--line); background:transparent; color:var(--fg);
+    padding:6px 14px; border-radius:6px; cursor:pointer; font:inherit; font-size:14px; }
+  .bar button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+  h1 { margin:0; font-size:2rem; }
+  h2 { margin:32px 0 8px; font-size:1.15rem; border-bottom:2px solid var(--line); padding-bottom:4px; }
+  h3 { margin:18px 0 2px; font-size:1rem; }
+  .sub, .meta { color:var(--muted); font-size:.92rem; }
+  ul { margin:6px 0 0; padding-left:20px; }
+  li { margin:3px 0; }
+  a { color:var(--accent); }
+  .row { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+  [data-l] { display:none; }
+  html[lang="en"] [data-l="en"], html[lang="zh-Hant"] [data-l="zh"] { display:revert; }
+  @media print { .bar { display:none; } main { padding:0; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="bar" role="group" aria-label="Language / 語言">
+    <button id="btn-en" type="button">English</button>
+    <button id="btn-zh" type="button">中文</button>
+  </div>
+
+  <header>
+    <h1><span data-l="en">Wan-Yu Lin</span><span data-l="zh">林琬諭</span></h1>
+    <div class="sub">
+      <span data-l="en">Software Engineer · C# · .NET · MS SQL Server · Taipei, Taiwan</span>
+      <span data-l="zh">軟體工程師 · C# · .NET · MS SQL Server · 台北</span>
+    </div>
+    <div class="meta">
+      <a href="mailto:esi.estherlin@gmail.com">esi.estherlin@gmail.com</a>
+      · <a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a>
+    </div>
+  </header>
+
+  <!-- SUMMARY -->
+  <h2><span data-l="en">Summary</span><span data-l="zh">摘要</span></h2>
+  <p data-l="en">Software Engineer with 3+ years of experience building and maintaining financial systems with C#, ASP.NET MVC and Microsoft SQL Server.
+    Currently, I’m expanding my knowledge of .NET Core, cloud services, and DevOps, and I’m looking for an opportunity to work on more modern and scalable systems.</p>
+  <p data-l="zh">具備 3 年以上以 C#、ASP.NET MVC 與 Microsoft SQL Server 開發及維運金融系統的經驗，曾參與信用卡系統、行動支付管理平台、客戶內容管理系統與自動化資料更新排程等專案，並與 PM、QA 及業務單位合作。</p>
+
+  <!-- SKILLS -->
+  <h2><span data-l="en">Technical Skills</span><span data-l="zh">技能</span></h2>
+  <ul>
+    <li data-l="en"><b>Languages:</b> C#, T-SQL, JavaScript, jQuery</li>
+    <li data-l="en"><b>Frameworks / Web:</b> .NET, ASP.NET MVC, ASP.NET Web API, RESTful API, AJAX</li>
+    <li data-l="en"><b>Database:</b> Microsoft SQL Server (schema design, queries, reporting, batch jobs)</li>
+    <li data-l="en"><b>Tools:</b> Git, Visual Studio</li>
+    <li data-l="zh"><b>程式語言：</b>C#、T-SQL、JavaScript、jQuery</li>
+    <li data-l="zh"><b>框架：</b>.NET, ASP.NET MVC, ASP.NET Web API, RESTful API, AJAX</li>
+    <li data-l="zh"><b>資料庫：</b>Microsoft SQL Server（資料表設計、查詢、報表、批次作業）</li>
+    <li data-l="zh"><b>工具：</b>Git、Visual Studio</li>
+  </ul>
+
+  <!-- EXPERIENCE -->
+  <h2><span data-l="en">Professional Experience</span><span data-l="zh">工作經歷</span></h2>
+
+  <div class="row"><h3><span data-l="en">Software Engineer – Bank of Taiwan</span><span data-l="zh">程式設計人員 – 臺灣銀行</span></h3><span class="meta">2026/03 – <span data-l="en">Present</span><span data-l="zh">現在</span></span></div>
+  <ul data-l="en">
+    <li>Develop and maintain the credit card system and the HCE mobile payment management platform with C#, ASP.NET and MS SQL Server.</li>
+    <li>Write and tune SQL queries for data analysis and operational reporting.</li>
+    <li>Build and maintain batch jobs for credit card reports.</li>
+    <li>Build and maintain system and remediated security findings.(Fortify)</li>
+  </ul>
+  <ul data-l="zh">
+    <li>負責信用卡系統、HCE 行動支付管理平台系統開發與維護（C#、ASP.NET、MS SQL Server）。</li>
+    <li>撰寫與優化 SQL 查詢，進行資料分析與相關數據報表。</li>
+    <li>信用卡相關報表批次作業開發與維護。</li>
+    <li>系統弱掃評估處理與修正（Fortify）。</li>
+  </ul>
+
+  <div class="row"><h3><span data-l="en">Software Engineer – Esi International Co., Ltd.</span><span data-l="zh">軟體工程師 – 直通國際股份有限公司</span></h3><span class="meta">2023/10 – 2026/03</span></div>
+  <ul data-l="en">
+    <li>Developed web components and data integration for a financial wealth-management website using C# and ASP.NET MVC.</li>
+    <li>Led development of an automated scheduling system that updates daily financial data into the database, replacing manual updates.</li>
+    <li>Designed the database schema and tables for structural soundness and system stability.</li>
+    <li>Maintained a banking client's public website and remediated security findings (Checkmarx).</li>
+    <li>Developed and supported fund-related features, including overseas bond subscription.</li>
+    <li>Collaborated across teams from requirements analysis to design, testing and deployment, delivering on schedule.</li>
+  </ul>
+  <ul data-l="zh">
+    <li>參與金融「理財網」專案，使用 C# 與 ASP.NET MVC 實作網頁元件顯示及資料串接。</li>
+    <li>主導開發自動化排程系統，每日自動更新金融數據至資料庫。</li>
+    <li>負責資料庫與資料表設計，確保結構最佳化與系統穩定。</li>
+    <li>負責金融業官網維護及弱點風險修正（Checkmarx）。</li>
+    <li>開發與維運基金相關功能，包含海外債申購 (串接API)。</li>
+    <li>與跨部門團隊協作，完成需求分析、系統設計、開發測試及部署，確保專案準時交付。</li>
+  </ul>
+
+  <div class="row"><h3><span data-l="en">Backend Engineer Trainee – iSpan (Microsoft C# Engineer Program)</span><span data-l="zh">後端工程師 – 資展國際（智慧應用微軟 C# 工程師就業班）</span></h3><span class="meta">2023/04 – 2023/09</span></div>
+  <ul data-l="en">
+    <li>Built a travel platform as a capstone: product pages with a dynamic calendar (JavaScript) and Google Maps API integration.</li>
+    <li>Built the admin back office (member suspension, itinerary review, coupon management) with AJAX; designed the database and used Git for team version control.</li>
+  </ul>
+  <ul data-l="zh">
+    <li>專題開發旅遊平台：商品頁以 JavaScript 動態產生月曆，並串接 Google Maps API 顯示行程地點。</li>
+    <li>以大量 AJAX 建置後台（會員停權、行程審核、優惠券發放）；負責資料庫維護，並使用 Git 進行團隊版本控制。</li>
+  </ul>
+
+  <div class="row"><h3><span data-l="en">Earlier Career – Design, Marketing &amp; Media</span><span data-l="zh">早期經歷 – 設計、行銷與影音</span></h3><span class="meta">2018 – 2022</span></div>
+  <ul data-l="en">
+    <li>Design &amp; Marketing Supervisor, TWDD (2019/10 – 2022/6): video planning, editing and visual design (Premiere, After Effects, Photoshop, Illustrator).</li>
+    <li>Design intern, Internet Genes (2019)</li>
+  </ul>
+  <ul data-l="zh">
+    <li>設計行銷主任，群悅科技（2019/10 – 2022/6）：影音企劃、剪輯與視覺設計（Premiere、After Effects、Photoshop、Illustrator）。</li>
+    <li>網路基因設計部實習生（2019）：平面設計，華航臉書圖文設計。</li>
+  </ul>
+
+  <!-- EDUCATION -->
+  <h2><span data-l="en">Education</span><span data-l="zh">學歷</span></h2>
+  <div class="row">
+    <div><b><span data-l="en">Tamkang University – B.A., Information and Communication</span><span data-l="zh">私立淡江大學 – 資訊傳播學系 學士</span></b></div>
+    <span class="meta">2016/09 – 2020/06</span>
+  </div>
+
+  <h2><span data-l="en">Languages</span><span data-l="zh">語言</span></h2>
+  <p data-l="en">Mandarin (native) · English (intermediate reading, writing and listening; developing speaking)</p>
+  <p data-l="en">TOEIC:760</p>
+  <p data-l="zh">中文（母語）· 英文（聽／讀／寫中等，口說持續加強）</p>
+  <p data-l="zh">多益：760分</p>
+</main>
+
+<script>
+(function () {
+  var html = document.documentElement;
+  var KEY = "resume-lang";
+  function set(lang) {
+    var zh = lang === "zh";
+    html.lang = zh ? "zh-Hant" : "en";
+    document.getElementById("btn-en").setAttribute("aria-pressed", String(!zh));
+    document.getElementById("btn-zh").setAttribute("aria-pressed", String(zh));
+    try { localStorage.setItem(KEY, lang); } catch (e) {}
+    history.replaceState(null, "", "#" + lang);
+  }
+  var initial = (location.hash.replace("#", "") || "");
+  if (initial !== "zh" && initial !== "en") {
+    try { initial = localStorage.getItem(KEY) || ""; } catch (e) { initial = ""; }
+  }
+  if (initial !== "zh" && initial !== "en") {
+    initial = (navigator.language || "").toLowerCase().indexOf("zh") === 0 ? "zh" : "en";
+  }
+  document.getElementById("btn-en").onclick = function () { set("en"); };
+  document.getElementById("btn-zh").onclick = function () { set("zh"); };
+  set(initial);
+})();
+</script>
+</body>
+</html>
